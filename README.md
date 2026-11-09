@@ -2,10 +2,10 @@
 
 # B2B-Market-Insight-Dashboard
 
-# Project Overview: B2B Market Insight Dashboard for Power Devices.
+**Project Overview**: B2B Market Insight Dashboard for Power Devices.
 
-# Data Collection: Automated web scraping of 200+ bidding records from public procurement websites using Python (Requests/BeautifulSoup).
+**Data Collection**: Automated web scraping of 200+ bidding records from public procurement websites using Python (Requests/BeautifulSoup).
 
-# Data Cleaning: Standardized currency units and parsed unstructured text via Pandas and Regex.
+**Data Cleaning**: Standardized currency units and parsed unstructured text via Pandas and Regex.
 
-# Visualization: Built interactive Tableau dashboard to analyze market trends, competitor Top 10, and identify high-value sales leads.
+**Visualization**: Built interactive Tableau dashboard to analyze market trends, competitor Top 10, and identify high-value sales leads.
