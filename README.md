@@ -2,10 +2,34 @@
 
 # B2B-Market-Insight-Dashboard
 
-**Project Overview**: B2B Market Insight Dashboard for Power Devices.
+Power Device / Semiconductor Bidding Market Insight Project
 
-**Data Collection**: Automated web scraping of 200+ bidding records from public procurement websites using Python (Requests/BeautifulSoup).
+## Project Overview
+Collected and analyzed public procurement (中标) data related to power devices, semiconductors, IGBT, SiC, GaN, etc. from China Government Procurement website, to support competitor analysis and sales lead prioritization.
 
-**Data Cleaning**: Standardized currency units and parsed unstructured text via Pandas and Regex.
+## Key Features
+- **Data Collection**: Python + Selenium crawler with multi-keyword search, list page + detail page extraction
+- **Data Cleaning**: Unified currency units (万元 → 元), handled outliers & duplicates with Pandas
+- **Visualization**: Tableau dashboard covering:
+  - Bid amount distribution
+  - Supplier Top 10
+  - Keyword market size
+  - Time trend analysis
 
-**Visualization**: Built interactive Tableau dashboard to analyze market trends, competitor Top 10, and identify high-value sales leads.
+## Tech Stack
+- Python 3
+- Selenium + webdriver-manager
+- Pandas
+- Tableau
+
+## Project Structure
+├── scraper.py          # Main crawler script
+├── data_cleaning.py    # Amount unification & deduplication
+├── README.md
+└── screenshots/        # Dashboard images
+
+## How to Run (Scraper)
+1. Install dependencies:
+```bash
+pip install selenium webdriver-manager pandas
+```
